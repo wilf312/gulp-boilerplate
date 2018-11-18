@@ -1,0 +1,22 @@
+{
+  "name": "gulp-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wilf312/gulp-boilerplate.git",
+  "author": "OkadaGenya <g.okada.wilf+github@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "css": "gulp css",
+    "watch": "gulp watcher"
+  },
+  "dependencies": {
+    "gulp": "4.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
